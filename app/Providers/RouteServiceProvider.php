@@ -14,7 +14,9 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @var string
      */
-    protected $namespace = 'App\Http\Controllers';
+    protected $frontend = 'App\Http\Controllers\Frontend';
+    protected $backend = 'App\Http\Controllers\Backend';
+    protected $api = 'App\Http\Controllers\Api';
 
     /**
      * Define your route model bindings, pattern filters, etc.
@@ -39,6 +41,8 @@ class RouteServiceProvider extends ServiceProvider
 
         $this->mapWebRoutes();
 
+        $this->mapBackendRoutes();
+
         //
     }
 
@@ -52,8 +56,18 @@ class RouteServiceProvider extends ServiceProvider
     protected function mapWebRoutes()
     {
         Route::middleware('web')
-             ->namespace($this->namespace)
-             ->group(base_path('routes/web.php'));
+            ->namespace($this->frontend)
+            ->group(base_path('routes/web.php'));
+    }
+
+    /**
+     * 引入后台路由文件
+     */
+    protected function mapBackendRoutes()
+    {
+        Route::middleware('web')
+            ->namespace($this->backend)
+            ->group(base_path('routes/backend.php'));
     }
 
     /**
@@ -67,7 +81,7 @@ class RouteServiceProvider extends ServiceProvider
     {
         Route::prefix('api')
              ->middleware('api')
-             ->namespace($this->namespace)
+             ->namespace($this->api)
              ->group(base_path('routes/api.php'));
     }
 }
