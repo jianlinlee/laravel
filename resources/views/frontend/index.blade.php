@@ -188,15 +188,11 @@
     <div class="overlay"></div>
     <div class="container">
         <div class="row">
-
             <div class="col-md-offset-2 col-md-8 col-sm-12">
-                <a class="popup-youtube" href="https://www.youtube.com/watch?v=CRhCMl7ZI84"><i
-                            class="fa fa-play"></i></a>
+                <a class="popup-youtube" href="https://www.youtube.com/watch?v=CRhCMl7ZI84"><i class="fa fa-play"></i></a>
                 <h2 class="wow fadeInUp" data-wow-delay="0.5s">Watch the video</h2>
-                <p class="wow fadeInUp" data-wow-delay="0.8s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                    sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat.</p>
+                <p class="wow fadeInUp" data-wow-delay="0.8s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat.</p>
             </div>
-
         </div>
     </div>
 </section>
@@ -503,16 +499,15 @@
 
             <div class="col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10">
                 <div class="wow fadeInUp section-title" data-wow-delay="0.3s">
-                    <h2>Say hello</h2>
+                    <h2>加入我们</h2>
                     <h4>we are always ready to serve you!</h4>
                 </div>
                 <div class="contact-form wow fadeInUp" data-wow-delay="0.7s">
                     <form id="contact-form" method="post" action="#">
-                        <input name="name" type="text" class="form-control" placeholder="Your Name" required>
-                        <input name="email" type="email" class="form-control" placeholder="Your Email" required>
-                        <textarea name="message" class="form-control" placeholder="Message" rows="5"
-                                  required></textarea>
-                        <input type="submit" class="form-control submit" value="SEND MESSAGE">
+                        <input name="name" type="text" class="form-control" placeholder="Your Phone" required>
+                        <input name="email" type="email" class="form-control" placeholder="Verification Code" required>
+                        {{--<textarea name="message" class="form-control" placeholder="Message" rows="5" required></textarea>--}}
+                        <input type="submit" class="form-control submit" value="登陆">
                     </form>
                 </div>
             </div>
