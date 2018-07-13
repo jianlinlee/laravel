@@ -34,10 +34,10 @@
         <div class="row">
 
             <div class="col-md-offset-2 col-md-8 col-sm-12">
-                <h1 class="wow fadeInUp" data-wow-delay="0.6s">标题名称</h1>
-                <p class="wow fadeInUp" data-wow-delay="1.0s">这里是一句话，用来描述适当的内容，不宜过长</p>
+                <h1 class="wow fadeInUp" data-wow-delay="0.1s">标题名称</h1>
+                <p class="wow fadeInUp" data-wow-delay="0.3s">这里是一句话，用来描述适当的内容，不宜过长</p>
                 <a href="#feature" class="wow fadeInUp btn btn-default hvr-bounce-to-top smoothScroll"
-                   data-wow-delay="1.3s">浏览更多</a>
+                   data-wow-delay="0.4s">浏览更多</a>
             </div>
 
         </div>
@@ -79,7 +79,7 @@
         <div class="row">
 
             <div class="col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10">
-                <div class="wow fadeInUp section-title" data-wow-delay="0.6s">
+                <div class="wow fadeInUp section-title" data-wow-delay="0.1s">
                     <h2>Why Choose Us?</h2>
                     <h4>一句话描述</h4>
                 </div>
@@ -87,7 +87,7 @@
 
             <div class="clearfix"></div>
 
-            <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.2s">
                 <div class="feature-thumb">
                     <div class="feature-icon">
                         <span><i class="fa fa-cutlery"></i></span>
@@ -97,7 +97,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
+            <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="feature-thumb">
                     <div class="feature-icon">
                         <span><i class="fa fa-coffee"></i></span>
@@ -107,7 +107,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.9s">
+            <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
                 <div class="feature-thumb">
                     <div class="feature-icon">
                         <span><i class="fa fa-bell-o"></i></span>
@@ -128,7 +128,7 @@
         <div class="row">
 
             <div class="col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10">
-                <div class="wow fadeInUp section-title" data-wow-delay="0.3s">
+                <div class="wow fadeInUp section-title" data-wow-delay="0.1s">
                     <h2>Our Story</h2>
                     <h4>Your Dining Restaurant since 1989</h4>
                 </div>
@@ -136,12 +136,12 @@
 
             <div class="clearfix"></div>
 
-            <div class="wow fadeInUp col-md-3 col-sm-5" data-wow-delay="0.3s">
+            <div class="wow fadeInUp col-md-3 col-sm-5" data-wow-delay="0.2s">
                 <img src="images/about-img.jpg" class="img-responsive" alt="About">
                 <h3>Nunc ullamcorper suscipit neque, ac malesuada purus molestie non.</h3>
             </div>
 
-            <div class="wow fadeInUp col-md-5 col-sm-7" data-wow-delay="0.5s">
+            <div class="wow fadeInUp col-md-5 col-sm-7" data-wow-delay="0.3s">
 
                 <!-- flexslider -->
                 <div class="flexslider">
@@ -159,25 +159,21 @@
 
                     </ul>
                 </div>
-
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.
-                    Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.Lorem ipsum dolor sit amet.</p>
             </div>
-
-            <div class="wow fadeInUp col-md-4 col-sm-12" data-wow-delay="0.9s">
+            <div class="wow fadeInUp col-md-4 col-sm-12" data-wow-delay="0.5s">
                 <h2>Fine Dining</h2>
-                <p>标题名称 is free HTML website template for everyone. Please inform your friends about <a
-                            rel="nofollow" href="#/free-templates" target="_blank">Tooplate</a> site.</p>
-                <p>Vestibulum id iaculis nisl. Pellentesque nec tortor sagittis, scelerisque ante at, sollicitudin leo.
-                    Vivamus pulvinar a justo vel lobortis.</p>
-
+                <p>
+                    标题名称 is free HTML website template for everyone. Please inform your friends about
+                    <a rel="nofollow" href="#/free-templates" target="_blank">Tooplate</a>site.
+                </p>
+                <p>Vestibulum id iaculis nisl. Pellentesque nec tortor sagittis, scelerisque ante at, sollicitudin leo.Vivamus pulvinar a justo vel lobortis.</p>
                 <ul>
                     <li>Donec fringilla ipsum</li>
                     <li>Integer nec urna</li>
                     <li>Curabitur porta</li>
                 </ul>
             </div>
-
         </div>
     </div>
 </section>
@@ -189,7 +185,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-offset-2 col-md-8 col-sm-12">
-                <a class="popup-youtube" href="https://www.youtube.com/watch?v=CRhCMl7ZI84"><i class="fa fa-play"></i></a>
+                <a class="popup-youtube" href="video/video.mp4"><i class="fa fa-play"></i></a>
                 <h2 class="wow fadeInUp" data-wow-delay="0.5s">Watch the video</h2>
                 <p class="wow fadeInUp" data-wow-delay="0.8s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat.</p>
             </div>
@@ -201,16 +197,15 @@
 <section id="menu" class="parallax-section">
     <div class="container">
         <div class="row">
-
             <div class="col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10">
-                <div class="wow fadeInUp section-title" data-wow-delay="0.3s">
+                <div class="wow fadeInUp section-title" data-wow-delay="0.1s">
                     <h2>Food Menu</h2>
                     <h4>we have special menus</h4>
                 </div>
             </div>
 
             <div class="col-md-6 col-sm-12">
-                <div class="media wow fadeInUp" data-wow-delay="0.6s">
+                <div class="media wow fadeInUp" data-wow-delay="0.3s">
                     <div class="media-object pull-left">
                         <img src="images/gallery-img1.jpg" class="img-responsive" alt="Food Menu">
                         <span class="menu-price">$24</span>
@@ -221,7 +216,7 @@
                     </div>
                 </div>
 
-                <div class="media wow fadeInUp" data-wow-delay="0.9s">
+                <div class="media wow fadeInUp" data-wow-delay="0.4s">
                     <div class="media-object pull-left">
                         <img src="images/gallery-img2.jpg" class="img-responsive" alt="Food Menu">
                         <span class="menu-price">$36</span>
@@ -232,7 +227,7 @@
                     </div>
                 </div>
 
-                <div class="media wow fadeInUp" data-wow-delay="1.2s">
+                <div class="media wow fadeInUp" data-wow-delay="0.5s">
                     <div class="media-object pull-left">
                         <img src="images/gallery-img3.jpg" class="img-responsive" alt="Food Menu">
                         <span class="menu-price">$24</span>
@@ -245,7 +240,7 @@
             </div>
 
             <div class="col-md-6 col-sm-12">
-                <div class="media wow fadeInUp" data-wow-delay="1s">
+                <div class="media wow fadeInUp" data-wow-delay="0.6s">
                     <div class="media-object pull-left">
                         <img src="images/gallery-img4.jpg" class="img-responsive" alt="Food Menu">
                         <span class="menu-price">$32</span>
@@ -256,7 +251,7 @@
                     </div>
                 </div>
 
-                <div class="media wow fadeInUp" data-wow-delay="1.3s">
+                <div class="media wow fadeInUp" data-wow-delay="0.7s">
                     <div class="media-object pull-left">
                         <img src="images/gallery-img5.jpg" class="img-responsive" alt="Food Menu">
                         <span class="menu-price">$64</span>
@@ -267,7 +262,7 @@
                     </div>
                 </div>
 
-                <div class="media wow fadeInUp" data-wow-delay="1.6s">
+                <div class="media wow fadeInUp" data-wow-delay="0.8s">
                     <div class="media-object pull-left">
                         <img src="images/gallery-img6.jpg" class="img-responsive" alt="Food Menu">
                         <span class="menu-price">$45</span>
@@ -289,7 +284,7 @@
         <div class="row">
 
             <div class="col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10">
-                <div class="wow fadeInUp section-title" data-wow-delay="0.3s">
+                <div class="wow fadeInUp section-title" data-wow-delay="0.1s">
                     <h2>Meet Our Chefs</h2>
                     <h4>we are food specialists</h4>
                 </div>
@@ -297,7 +292,7 @@
 
             <div class="clearfix"></div>
 
-            <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.2s">
                 <div class="team-thumb">
                     <img src="images/chef1.jpg" class="img-responsive" alt="Team">
                     <div class="team-des">
@@ -312,7 +307,7 @@
                 </div>
             </div>
 
-            <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
+            <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="team-thumb">
                     <img src="images/chef2.jpg" class="img-responsive" alt="Team">
                     <div class="team-des">
@@ -325,7 +320,7 @@
                 </div>
             </div>
 
-            <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.9s">
+            <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
                 <div class="team-thumb">
                     <img src="images/chef3.jpg" class="img-responsive" alt="Team">
                     <div class="team-des">
@@ -339,8 +334,8 @@
                 </div>
             </div>
 
-            <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="1.1s">
-                <div class="join-team">
+            <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                  <div class="join-team">
                     <i class="fa fa-plus"></i>
                     <p>Fusce interdum libero id libero volutpat varius convallis at sem.</p>
                     <a href="#" class="btn btn-default hvr-bounce-to-bottom">JOIN US</a>
@@ -375,14 +370,14 @@
             <div class="col-md-12">
 
                 <div class="col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10">
-                    <div class="wow fadeInUp section-title" data-wow-delay="0.3s">
+                    <div class="wow fadeInUp section-title" data-wow-delay="0.1s">
                         <h2>Food Gallery</h2>
                         <h4>we have special foods</h4>
                     </div>
                 </div>
 
                 <!-- iso section -->
-                <div class="iso-section wow fadeInUp" data-wow-delay="0.6s">
+                <div class="iso-section wow fadeInUp" data-wow-delay="0.3s">
 
                     <ul class="filter-wrapper clearfix">
                         <li><a href="#" data-filter="*" class="selected opc-main-bg">All</a></li>
@@ -393,7 +388,7 @@
                     </ul>
 
                     <!-- iso box section -->
-                    <div class="iso-box-section wow fadeInUp" data-wow-delay="0.9s">
+                    <div class="iso-box-section wow fadeInUp" data-wow-delay="0.5s">
                         <div class="iso-box-wrapper col4-iso-box">
 
                             <div class="iso-box breakfast pizza lunch col-md-4 col-sm-6">
@@ -498,16 +493,17 @@
         <div class="row">
 
             <div class="col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10">
-                <div class="wow fadeInUp section-title" data-wow-delay="0.3s">
+                <div class="wow fadeInUp section-title" data-wow-delay="0.1s">
                     <h2>加入我们</h2>
                     <h4>we are always ready to serve you!</h4>
                 </div>
-                <div class="contact-form wow fadeInUp" data-wow-delay="0.7s">
+                <div class="contact-form wow fadeInUp" data-wow-delay="0.3s">
                     <form id="contact-form" method="post" action="#">
-                        <input name="name" type="text" class="form-control" placeholder="Your Phone" required>
-                        <input name="email" type="email" class="form-control" placeholder="Verification Code" required>
+                        {{csrf_field()}}
+                        <input name="phone" type="text" class="form-control" placeholder="请输入手机号" required>
+                        <input name="vercode" type="text" class="form-control" placeholder="请输入验证码" required>
                         {{--<textarea name="message" class="form-control" placeholder="Message" rows="5" required></textarea>--}}
-                        <input type="submit" class="form-control submit" value="登陆">
+                        <input type="button" class="form-control submit" value="登陆">
                     </form>
                 </div>
             </div>
@@ -521,20 +517,20 @@
     <div class="container">
         <div class="row">
 
-            <div class="wow fadeInUp col-md-4 col-sm-4" data-wow-delay="1.3s">
+            <div class="wow fadeInUp col-md-4 col-sm-4" data-wow-delay="0.5s">
                 <h3>About the house</h3>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
                     tincidunt ut laoreet. Dolore magna aliquam erat volutpat ipsum.</p>
             </div>
 
-            <div class="wow fadeInUp col-md-4 col-sm-4" data-wow-delay="1.6s">
+            <div class="wow fadeInUp col-md-4 col-sm-4" data-wow-delay="0.7s">
                 <h3>Contact Detail</h3>
                 <p>123 Delicious Street, San Francisco, CA 10110</p>
                 <p>010-020-0780</p>
                 <p>hello@company.com</p>
             </div>
 
-            <div class="wow fadeInUp col-md-4 col-sm-4" data-wow-delay="1.9s">
+            <div class="wow fadeInUp col-md-4 col-sm-4" data-wow-delay="0.9s">
                 <h3>Opening Hours</h3>
                 <strong>Monday - Firday</strong>
                 <p>11:00 AM - 10:00 PM</p>
@@ -567,6 +563,7 @@
 
 <!-- javscript js -->
 <script src="js/jquery.js"></script>
+<script src="js/public/rules.js"></script>
 <script src="js/bootstrap.min.js"></script>
 
 <script src="js/jquery.magnific-popup.min.js"></script>
@@ -586,5 +583,6 @@
 
 <script src="js/custom.js"></script>
 
+<script src="js/home/index.js"></script>
 </body>
 </html>
