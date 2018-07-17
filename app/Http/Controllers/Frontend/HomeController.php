@@ -4,6 +4,8 @@ namespace App\Http\Controllers\Frontend;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Redis;
 
 class HomeController extends Controller
 {
@@ -25,5 +27,16 @@ class HomeController extends Controller
         var_dump($request->post());
         var_dump($request);
         die;
+    }
+
+    public function demo()
+    {
+//        echo '<pre/>';
+        $user = Redis::set('name','lee');
+        var_dump($user);
+        $user = Redis::get('name');
+        var_dump($user);
+//        $values = Redis::lrange('name', 1, 3);
+//        var_dump($values);
     }
 }

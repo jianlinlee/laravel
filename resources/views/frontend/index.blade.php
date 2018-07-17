@@ -517,20 +517,20 @@
     <div class="container">
         <div class="row">
 
-            <div class="wow fadeInUp col-md-4 col-sm-4" data-wow-delay="0.5s">
+            <div class="wow fadeInUp col-md-4 col-sm-4" data-wow-delay="0.1s">
                 <h3>About the house</h3>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
                     tincidunt ut laoreet. Dolore magna aliquam erat volutpat ipsum.</p>
             </div>
 
-            <div class="wow fadeInUp col-md-4 col-sm-4" data-wow-delay="0.7s">
+            <div class="wow fadeInUp col-md-4 col-sm-4" data-wow-delay="0.2s">
                 <h3>Contact Detail</h3>
                 <p>123 Delicious Street, San Francisco, CA 10110</p>
                 <p>010-020-0780</p>
                 <p>hello@company.com</p>
             </div>
 
-            <div class="wow fadeInUp col-md-4 col-sm-4" data-wow-delay="0.9s">
+            <div class="wow fadeInUp col-md-4 col-sm-4" data-wow-delay="0.3s">
                 <h3>Opening Hours</h3>
                 <strong>Monday - Firday</strong>
                 <p>11:00 AM - 10:00 PM</p>
@@ -549,12 +549,13 @@
 
             <div class="col-md-8 col-sm-8 col-xs-8">
                 <p>Copyright © 2016 标题名称 Company - Designed <a class="designed-by" href="" target="_blank">Tooplate</a>.More
-                    Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a
-                            href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
+                    Templates <a href="" target="_blank" title="柒＋">柒＋</a> - Collect from <a
+                            href="" title="柒＋" target="_blank">柒＋</a></p>
             </div>
 
             <div class="col-md-4 col-sm-4 text-right">
-                <a href="#home" class="fa fa-angle-up smoothScroll gototop"></a>
+                {{--<a href="#top" class="fa fa-angle-up smoothScroll gototop"></a>--}}
+                <a href="#top" class="smoothScroll gototop fa fa-angle-up"></a>
             </div>
 
         </div>
