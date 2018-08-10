@@ -15,4 +15,3 @@ Route::get('/','HomeController@index');
 
 Route::post('login','HomeController@login');
 
-Route::get('demo','HomeController@demo');
